@@ -27,7 +27,7 @@ const Login = ({onClose}:any)=>{
                 }}/>
                 <button onClick={handleLogin}>Login</button>
                 <p>¿No tienes cuenta? <Link href="/pages/registro">Registrate</Link></p>
-                <button onClick={onClose}>Cerrar</button>
+                <button onClick={onClose} className={fromStyle.closeButton}>Cerrar</button>
             </div>
         </div>
     )

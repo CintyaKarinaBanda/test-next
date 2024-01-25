@@ -33,7 +33,7 @@ const Registro = ({onClose}:any)=>{
                 }}/>
                 <button onClick={handleRegister}>Registrar</button>
                 <p>¿Ya tienes cuenta? <Link href="/">Inicia Sesión</Link></p>
-                <button onClick={onClose}>Cerrar</button>
+                <button onClick={onClose} className={fromStyle.closeButton}>Cerrar</button>
             </div>
         </div>
     )
